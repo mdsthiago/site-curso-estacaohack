@@ -1,0 +1,48 @@
+/* Folha de estilo por Thiago Mendes */
+
+/* px tamanho normal / vw tamanho responsivo */
+
+.nav-link, .dropdown-item{
+  color: #f1f1f1 !important;
+}
+
+.active{
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #7952b3;
+  border-radius: 5px;
+  color: #f1f1f1 !important;
+}
+
+.bg-imagem{
+  height: 48vw;
+  background-image: url(https://cdn.pixabay.com/photo/2015/01/08/18/24/children-593313_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-imagem p{
+  font-size: 4vw;
+  text-shadow: 4px 4px 8px black;
+}
+
+#agenda th{
+  font-size: 1.5vw;
+}
+
+#agenda td{
+  height: 100px;
+/*  100% / 7 colunas  */
+  width: 14.29%;
+}
+
+#agenda td.bg-info{
+  color: white;
+}
+
+/* .bg-info{
+  background-color: blueviolet !important;
+} */
